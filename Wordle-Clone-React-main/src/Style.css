@@ -1,0 +1,149 @@
+* {
+  background-color: #000000;
+}
+
+#resetButton {
+  background-color: rgb(0, 0, 0);
+  color: rgb(111, 111, 111);
+  cursor: pointer;
+  font-size: 21px;
+  width: 101vw;
+  display: flex;
+  align-items: center;
+  padding-top: 11px;
+  flex-direction: column;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.App {
+  text-align: center;
+  background-color: #000000;
+  width: 101vw;
+  height: 101vh;
+  color: white;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0%;
+  margin: 0;
+  overflow: hidden;
+}
+
+nav {
+  height: 60px;
+  width: 100%;
+  margin: 0;
+  border-bottom: 1px solid rgb(117, 116, 116);
+  display: grid;
+  place-items: center;
+}
+
+nav h1 {
+  margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 45px;
+}
+
+.game {
+  width: 100vw;
+  height: calc(100vh - 370px);
+  display: flex;
+  align-items: center;
+  padding-top: 3px;
+  flex-direction: column;
+}
+
+.board {
+  width: 450px;
+  /* height: 550px; */
+  border: 4px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  /* flex: 33%; */
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+}
+
+.letter {
+  flex: 33%;
+  height: 90%;
+  border: 1px solid grey;
+  margin: 5px;
+  display: grid;
+  place-items: center;
+  font-size: 160%;
+  font-weight: bolder;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#correct {
+  background-color: #528d4e;
+}
+
+#almost {
+  background-color: #b49f39;
+}
+
+#error {
+  background-color: #3a393c;
+}
+
+.keyboard {
+  width: 700px;
+  height: 10px;
+}
+
+.line1 {
+  flex: 33%;
+  display: flex;
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  margin: 2px;
+}
+
+.line2 {
+  flex: 33%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 2px;
+}
+
+.line3 {
+  flex: 33%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 2px;
+}
+
+.key {
+  width: 50px;
+  height: 35px;
+  margin: 5px;
+  border-radius: 4px;
+  display: grid;
+  place-items: center;
+  font-size: 20px;
+  background-color: grey;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+}
+
+#big {
+  width: 100px;
+}
+
+#disabled {
+  background-color: #3a393c;
+}
