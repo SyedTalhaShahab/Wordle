@@ -1,4 +1,4 @@
-Download the zip file and in the terminal type
-npm run start
+## Download the zip file and in the terminal type
+## npm run start
 
-Project created without React JS
+# This is the Lightweight Non Rect Version of my hosted Wordle project.  
